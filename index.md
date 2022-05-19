@@ -14,3 +14,7 @@ Science has not yet mastered prophecy. We predict too much for the next year and
 We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win.
 
 There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.
+
+![Here's an Image](/img/posts/04.jpg)
+
+Blah blah
