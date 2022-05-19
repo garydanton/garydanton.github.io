@@ -1,6 +1,6 @@
 ---
 layout: home
-background: '/img/bg-index.jpg'
+background: '/img/posts/04.jpg'
 ---
 
 # Hello - I'm Gary
@@ -15,6 +15,6 @@ We choose to go to the moon in this decade and do the other things, not because 
 
 There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.
 
-![Here's an Image](/img/posts/04.jpg){ width=100% }
+![Here's an Image](/img/posts/04.jpg)
 
-Blah blah
+## Blah blah
