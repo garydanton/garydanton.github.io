@@ -1,4 +1,7 @@
-# no version needed since 2020
+# Download and install: 
+# https://www.docker.com/products/docker-desktop/
+# run docker-compose up from the terminal
+# ctrl-c to exit
 
 services:
   jekyll:

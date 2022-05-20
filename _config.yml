@@ -1,6 +1,7 @@
-title:              Gary Danton 2 
+title:              Gary Danton
+title_display:      Gary Danton's Tech Blog
 email:              your-email@example.com
-description:        test test test
+description:        It’s not DNS, There’s no way it’s DNS, It was DNS
 author:             Gary Danton
 baseurl:            ""
 url:                "https://garydanton.github.io"
@@ -23,3 +24,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+highlighter: rouge
