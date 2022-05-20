@@ -15,7 +15,7 @@ You can visit the complete Jargonator page [here](/corporate-jargon/).
 
 ## Build your data source
 
-This is build as a standard CSV file made of multiple fields separated by a comma, with each entry on a new line.
+This is built as a standard CSV file made of multiple fields separated by a comma, with each entry on a new line.
 
 ```
 jargon,meaning
