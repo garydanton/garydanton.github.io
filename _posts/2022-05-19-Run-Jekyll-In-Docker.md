@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Run Jekyll in Docker"
-subtitle: "or 'How to avoid wasting a couple of hours on an intenet deep-dive'"
+subtitle: "or 'How to avoid wasting a couple of hours on an internet deep-dive'"
 date: 2022-05-18 10:45:13 -0400
 background: '/img/generic/code-image.jpg'
 permalink: /run-jekyll-in-docker/
