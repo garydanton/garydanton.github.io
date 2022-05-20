@@ -1,16 +1,16 @@
 title:              Gary Danton 2 
 email:              your-email@example.com
-description:        Gary Danton test website
+description:        test test test
 author:             Gary Danton
 baseurl:            ""
 url:                "https://garydanton.github.io"
 
 # Social Profiles
-twitter_username:   
-github_username:    
+twitter_username:   garydanton
+github_username:    garydanton
 facebook_username:  
 instagram_username:  
-linkedin_username:
+linkedin_username:  garydanton
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
