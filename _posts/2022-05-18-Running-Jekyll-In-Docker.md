@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Run Jekyll in Docker"
+title: "Running Jekyll in Docker"
 subtitle: "or 'How to avoid wasting a couple of hours on an internet deep-dive'"
 date: 2022-05-18 10:45:13 -0400
 background: '/img/generic/code-image.jpg'
-permalink: /run-jekyll-in-docker/
+permalink: /running-jekyll-in-docker/
 ---
 Since i've been playing around with Jekyll i've spent hours messing around on both Mac and Windows trying to get Ruby installed so I can run Jekyll natively from within the terminal in VSCode - ultimately with the aim of running a basic webserver on my laptop..
 
