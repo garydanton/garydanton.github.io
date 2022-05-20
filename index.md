@@ -3,7 +3,7 @@ layout: home
 background: '/img/posts/04.jpg'
 ---
 
-# Hello - I'm Gary
+# Hello - I'm Gary D
 
 For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.
 
