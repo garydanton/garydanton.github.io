@@ -5,6 +5,7 @@ subtitle: "Using data sources in Jekyll"
 date: 2022-05-19 10:45:13 -0400
 background: '/img/posts/06.jpg'
 permalink: /building-the-jargonator/
+categories: [jekyll]
 ---
 
 My "Jargonator" project was built in an hour or so as a way of working out how to handle data files to populate static webpages generated in Jekyll.

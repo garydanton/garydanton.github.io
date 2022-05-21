@@ -8,9 +8,11 @@ permalink: /corporate-jargon/
 
 ## Welcome to the Jargonator
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id pharetra orci. Integer pellentesque ex quis dolor scelerisque, ut mattis ligula accumsan. 
+The rise of big business and the corporate world has had a significant affect on modern society. 
 
-ed dictum, tellus eu luctus sagittis, tellus purus faucibus lacus, non pulvinar urna nisl a felis. Nam in magna metus.
+I'm not talking about rampant end-stage capatalism or environmental destruction - i'm talking about the rise of corporate jargon. I love the creativity of these buzzwords, but cringe at their application..
+
+This is my personal, curated collection of only the finest corporate buzzwords.
 
 {% for entry in site.data.jargonator %}
 <hr>
