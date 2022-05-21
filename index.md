@@ -1,4 +1,4 @@
 ---
 layout: home
-background: '/img/posts/04.jpg'
+background: '/img/generic/server-rack.jpg'
 ---
