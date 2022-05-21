@@ -8,11 +8,11 @@ permalink: /running-jekyll-in-docker/
 categories: [docker,jekyll]
 ---
 
-Since i've been playing around with Jekyll i've spent hours messing around on both Mac and Windows trying to get Ruby installed so I can run Jekyll natively from within the terminal in VSCode - ultimately with the aim of running a basic webserver on my laptop..
+Since I've been playing around with Jekyll I've spent hours messing around on both Mac and Windows trying to get Ruby installed so I can run Jekyll natively from within the terminal in VSCode - ultimately with the aim of running a basic web server on my laptop..
 
 ## Enter Docker..
 
-Rather than mess around with installing homebrew, Ruby and any number of dependancies, I found the following repo on github -- with a prebuilt Jekyll server with all the added extras already installed and pre-configured.. Go Internet!
+Rather than mess around with installing homebrew, Ruby and any number of dependencies, I found the following repo on github -- with a prebuilt Jekyll server with all the added extras already installed and pre-configured.. Go Internet!
 
 The instructions are very simple and straightforward:
 

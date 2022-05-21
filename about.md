@@ -1,32 +1,16 @@
 ---
 layout: page
 title: About Me
-description: This is what I do.
-background: '/img/bg-about.jpg'
+description: Hey, I'm Gary and I work in IT.
+background: '/img/generic/manchester-looking-up.jpg'
 ---
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quisquam ut perspiciatis, repudiandae nulla animi iste vel, praesentium repellendus molestias aliquid consequatur, earum rem qui error voluptates eius enim consequuntur!</p>
+**Hey, I'm Gary and I work in IT.**
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, earum consectetur quia natus ducimus voluptate explicabo, hic porro reprehenderit, quasi? Tenetur ipsum distinctio laboriosam perspiciatis officiis dolore, architecto id.</p>
+I'm a seasoned IT veteran with 20 years experience working in a variety of roles across different sectors, including Legal, Education and most recently in a FinTech.
 
-<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam inventore aspernatur repellendus incidunt adipisci modi voluptates recusandae iste eligendi, repudiandae corporis quod aut, optio! Explicabo quaerat unde voluptatem! Itaque, eum!</p>
+I’m a professional problem solver with world class googling skills.
 
-## Post Categories
+Hit me up on [LinkedIn](https://www.linkedin.com/in/garydanton/) if you want to connect.
 
-<div id="archives">
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-
-    <h3 class="category-head">{{ category_name }}</h3>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <p><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></p>
-    </article>
-    {% endfor %}
-  </div>
-{% endfor %}
-</div>
+*The opinions and views presented on this website are my own personal opinions and views and are in no way related to my employer.*
