@@ -13,6 +13,7 @@ Here's a list of resources I've used in various projects throughout this site, h
 ### Docker
 
 * [Jekyll Docker Server by BretFisher on Github](https://github.com/BretFisher/jekyll-serve)
+* [Minecraft Docker Server by itzg on Github](https://github.com/itzg/docker-minecraft-server)
 
 ### Royalty Free Images
 

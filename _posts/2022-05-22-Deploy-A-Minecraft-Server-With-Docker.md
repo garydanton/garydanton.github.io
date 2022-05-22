@@ -37,8 +37,8 @@ Jump into the CLI and within the server.properties file edit the following:
 
 ```
 gamemode=survival
-spawn-monsters=true
-difficulty=easy
+spawn-monsters=false
+difficulty=peaceful
 ```
 
 The container will need a restart after modifing server.properties
