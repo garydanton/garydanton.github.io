@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Planning A Homelab"
-subtitle: "Always start wuth the requirements.."
+subtitle: "Always start with the requirements.."
 date: 2022-05-26 10:45:13 -0400
 background: '/img/posts/data-center.jpg'
 permalink: /planning-a-homelab/
