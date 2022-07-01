@@ -5,7 +5,7 @@ subtitle: "Taking full advantage of Microsoft's free certifications.."
 date: 2022-06-18 10:45:13 -0400
 background: '/img/posts/exam-certifications.jpg'
 permalink: /getting-certified/
-categories: [homelab,docker]
+categories: [certifications]
 ---
 
 In my day job I lead a small team and I'm always banging on about the benefits of training and certification. When one of the team pointed out the free Microsoft Virtual training days, I jumped at the chance of some Microsoft backed training (great) at a grand total of zero pounds (even better).
