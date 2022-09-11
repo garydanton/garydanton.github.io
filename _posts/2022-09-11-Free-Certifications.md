@@ -13,6 +13,7 @@ Here is a collection of free (or very cheap) IT certifications for those wanting
 Heres the list so far:
 
 - Microsoft Azure Fundamentals
+- Microsoft Power Platform Fundamentals
 
 ## Microsoft Azure Fundamentals
 
@@ -29,3 +30,21 @@ Learn the essentials of Azure—architectural components and core services and s
 
 - [MS Learning Path (AZ-900)](https://docs.microsoft.com/en-gb/users/23110622/collections/0kjyh8rn5x76j6)
 - [Microsoft virtual training days](https://www.microsoft.com/en-gb/events/training-days/) (availability may vary, but typically runs at least once per month)
+
+## Microsoft Power Platform Fundamentals
+
+### Overview
+
+Learn the business value and product capabilities of Microsoft Power Platform. Create simple Power Apps, connect data with Microsoft Dataverse, build a Power BI Dashboard, automate a process with Power Automate, and build a chatbot with Power Virtual Agents.
+
+### Exam and Certification 
+
+- [PL-900 Exam Details](https://docs.microsoft.com/en-us/certifications/exams/pl-900) (Voucher for the exam available if you book and attend the Microsoft virtual training day)
+- [PL-900 Certification](https://docs.microsoft.com/en-us/certifications/power-platform-fundamentals/)
+
+### Free learning resources
+
+- [MS Learning Path (PL-900)](https://docs.microsoft.com/en-us/training/paths/power-plat-fundamentals/)
+- [Microsoft virtual training days](https://www.microsoft.com/en-gb/events/training-days/) (availability may vary, but typically runs at least once per month)
+
+
