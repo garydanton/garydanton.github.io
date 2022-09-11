@@ -32,6 +32,8 @@ Learn the essentials of Azure—architectural components and core services and s
 - [MS Learning Path (AZ-900)](https://docs.microsoft.com/en-gb/users/23110622/collections/0kjyh8rn5x76j6)
 - [Microsoft virtual training days](https://www.microsoft.com/en-gb/events/training-days/) (availability may vary, but typically runs at least once per month)
 
+---
+
 ## Microsoft Power Platform Fundamentals
 
 ### Overview
@@ -47,6 +49,8 @@ Learn the business value and product capabilities of Microsoft Power Platform. C
 
 - [MS Learning Path (PL-900)](https://docs.microsoft.com/en-us/training/paths/power-plat-fundamentals/)
 - [Microsoft virtual training days](https://www.microsoft.com/en-gb/events/training-days/) (availability may vary, but typically runs at least once per month)
+
+---
 
 ## Microsoft Security, Compliance, and Identity Fundamentals
 
