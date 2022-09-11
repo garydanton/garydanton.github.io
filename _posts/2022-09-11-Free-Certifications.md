@@ -2,7 +2,7 @@
 layout: post
 title: "Free Certifications"
 subtitle: "More free certifications for the skint IT Pro."
-date: 2022-09-11 10:45:13 -0400
+date: 2022-09-10 10:45:13 -0400
 background: '/img/posts/keyboard.jpg'
 permalink: /free-certifications/
 categories: [certifications]
