@@ -18,8 +18,6 @@ Heres the list so far:
 
 ## Microsoft Azure Fundamentals
 
-### Overview
-
 Learn the essentials of Azure—architectural components and core services and solutions, plus management tools, compliance, security, and data protection.
 
 ### Exam and Certification 
@@ -36,8 +34,6 @@ Learn the essentials of Azure—architectural components and core services and s
 
 ## Microsoft Power Platform Fundamentals
 
-### Overview
-
 Learn the business value and product capabilities of Microsoft Power Platform. Create simple Power Apps, connect data with Microsoft Dataverse, build a Power BI Dashboard, automate a process with Power Automate, and build a chatbot with Power Virtual Agents.
 
 ### Exam and Certification 
@@ -53,8 +49,6 @@ Learn the business value and product capabilities of Microsoft Power Platform. C
 ---
 
 ## Microsoft Security, Compliance, and Identity Fundamentals
-
-### Overview
 
 Learn about core concepts and methodologies that are foundational to security, compliance, and identity solutions, including Zero-Trust, shared responsibility, the role of identity providers, and more.
 
