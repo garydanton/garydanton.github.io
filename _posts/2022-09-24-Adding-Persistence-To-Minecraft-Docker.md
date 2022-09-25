@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adding Persistence to a MineCraft Docker Container"
+title: "Adding Persistence to a Minecraft Docker Container"
 subtitle: "Backups.. here we come.."
 date: 2022-09-24 10:45:13 -0400
 background: '/img/posts/minecraft-header-2.jpg'
