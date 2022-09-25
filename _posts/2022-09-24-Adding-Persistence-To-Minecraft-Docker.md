@@ -8,7 +8,7 @@ permalink: /minecraft-docker-persistence/
 categories: [docker]
 ---
 
-As mentioned in my earlier post - [Deploy a Minecraft server with Docker](/deploy-minecraft-docker/), I'd originally not created it with persistence in mind, this was fine until my intall of docker desktop developed an issue and I needed to nuke it - say goodbye MineCraft server.. 
+As mentioned in my earlier post - [Deploy a Minecraft server with Docker](/deploy-minecraft-docker/), I'd originally not created it with persistence in mind, this was fine until my install of docker desktop developed an issue and I needed to nuke it - say goodbye Minecraft server.. 
 
 At this point I revisted adding a persistent volume for the Minecraft Data folder to avoid issues like this in the future and make sure that all future servers can be backed up easily.
 
