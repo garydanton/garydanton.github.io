@@ -42,7 +42,7 @@ services:
 ```
 **Post deploy config:**
 
-Below is my standard, default server.properties file. To use, create the file in /Data on your local filesystem before you run "docker-compose up"
+Below is my standard, default server.properties file. To use, create the file in /minecraft-data on your local filesystem before you run "docker-compose up"
 
 Note:
 
