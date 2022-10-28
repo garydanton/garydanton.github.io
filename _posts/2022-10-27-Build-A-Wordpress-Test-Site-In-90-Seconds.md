@@ -3,7 +3,7 @@ layout: post
 title: "Build A Wordpress Test Site In 90 Seconds"
 subtitle: "A no-faff setup with docker-compose"
 date: 2022-10-27 10:45:13 -0400
-background: 'img/posts/wordpress-development.jpg'
+background: '/img/posts/wordpress-development.jpg'
 permalink: /wordpress-docker-compose/
 categories: [docker]
 ---
@@ -12,9 +12,9 @@ I've built a number of websites over the years for projects, both paid and perso
 
 In order to build these sites, i'm often working on them well before a domain name or hosting package has been arranged, especially if its just at a "wireframe" or "proof of concept" stage and you need to show something to a client.. 
 
-I'n order to keep a development environement running for this purpose, i've tried many things over the years, including:
+I'n order to keep a development environment running for this purpose, i've tried many things over the years, including:
 
-* Maintained a test / dev worpress install on a webhost
+* Maintained a test / dev wordpress install on a webhost
 * Used (and hated) MAMP to host a dev site locally
 * Built VM's specifically to host worpress
 
