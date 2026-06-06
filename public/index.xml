@@ -12,9 +12,16 @@
 			<copyright>Copyright © 2026, Gary Danton.</copyright>
 		
 		
-			<lastBuildDate>Sat, 06 Jun 2026 15:46:51 +0100</lastBuildDate>
+			<lastBuildDate>Sat, 06 Jun 2026 17:26:19 +0100</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Sat, 06 Jun 2026 17:26:19 +0100</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;h1 id=&#34;about-this-site&#34;&gt;About this site&lt;/h1&gt;&#xA;&lt;p&gt;This site is built using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, the &lt;a href=&#34;https://github.com/janraasch/hugo-bearblog/&#34;&gt;Hugo Bear Blog&lt;/a&gt; theme and hosted on &lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; using &lt;a href=&#34;https://gohugo.io/host-and-deploy/host-on-github-pages/&#34;&gt;Github pages&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve keep tweaks to the layouts minor:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Changes to the fonts, replacing Verdana with Ubuntu (headers) and Lucidia Console (body text)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/2026/june/bear-blog-home-page-customisation/&#34;&gt;Home page customisation&lt;/a&gt;, adding in introductory text and showing posts per category&lt;/li&gt;&#xA;&lt;li&gt;Neater presentation of code-blocks, adding in &lt;a href=&#34;http://localhost:1313/posts/2026/june/neater-hugo-code-blocks/&#34;&gt;text wrapping&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
 			<item>
 				<title>Neater Hugo Code Blocks</title>
 				<link>http://localhost:1313/posts/2026/june/neater-hugo-code-blocks/</link>
