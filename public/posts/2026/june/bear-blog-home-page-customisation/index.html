@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>Bear Blog Home Page Customisation | Gary Danton&#39;s Blog</title>
+<meta name="title" content="Bear Blog Home Page Customisation" />
+<meta name="description" content="Bear Blog Home Page Customisation
+I want to be able to add some customision to the stadard Hugo Bear Blog home page, specifically adding in some header text and a break down of blog posts made in certain categories.
+To add in this type of customisation, we need to
+Adding header text to the home page
+In order to add in some header text to the home page, we need to create a _index.md file in the root of the content directory, within this file you can add in the text you want, along with any approprite front matter, for example:" />
+<meta name="keywords" content="" />
+
+
+<meta property="og:url" content="http://localhost:1313/posts/2026/june/bear-blog-home-page-customisation/">
+	<meta property="og:site_name" content="Gary Danton&#39;s Blog">
+	<meta property="og:title" content="Bear Blog Home Page Customisation">
+	<meta property="og:description" content="Bear Blog Home Page Customisation I want to be able to add some customision to the stadard Hugo Bear Blog home page, specifically adding in some header text and a break down of blog posts made in certain categories.
+To add in this type of customisation, we need to
+Adding header text to the home page In order to add in some header text to the home page, we need to create a _index.md file in the root of the content directory, within this file you can add in the text you want, along with any approprite front matter, for example:">
+	<meta property="og:locale" content="en_GB">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-06-06T15:08:17+01:00">
+		<meta property="article:modified_time" content="2026-06-06T15:08:17+01:00">
+		<meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://localhost:1313/images/share.png">
+	<meta name="twitter:title" content="Bear Blog Home Page Customisation">
+	<meta name="twitter:description" content="Bear Blog Home Page Customisation I want to be able to add some customision to the stadard Hugo Bear Blog home page, specifically adding in some header text and a break down of blog posts made in certain categories.
+To add in this type of customisation, we need to
+Adding header text to the home page In order to add in some header text to the home page, we need to create a _index.md file in the root of the content directory, within this file you can add in the text you want, along with any approprite front matter, for example:">
+
+
+
+
+	<meta itemprop="name" content="Bear Blog Home Page Customisation">
+	<meta itemprop="description" content="Bear Blog Home Page Customisation I want to be able to add some customision to the stadard Hugo Bear Blog home page, specifically adding in some header text and a break down of blog posts made in certain categories.
+To add in this type of customisation, we need to
+Adding header text to the home page In order to add in some header text to the home page, we need to create a _index.md file in the root of the content directory, within this file you can add in the text you want, along with any approprite front matter, for example:">
+	<meta itemprop="datePublished" content="2026-06-06T15:08:17+01:00">
+	<meta itemprop="dateModified" content="2026-06-06T15:08:17+01:00">
+	<meta itemprop="wordCount" content="248">
+	<meta itemprop="image" content="http://localhost:1313/images/share.png">
+	<meta itemprop="keywords" content="Technology">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+    text-wrap: wrap;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  .highlight pre,
+  .code pre {
+    min-width: 100%;
+    width: max-content;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Gary Danton&#39;s Blog</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/posts/">Posts</a>
+
+</nav>
+</header>
+  <main>
+
+<content>
+  <h1 id="bear-blog-home-page-customisation">Bear Blog Home Page Customisation</h1>
+<p>I want to be able to add some customision to the stadard Hugo Bear Blog home page, specifically adding in some header text and a break down of blog posts made in certain categories.</p>
+<p>To add in this type of customisation, we need to</p>
+<h2 id="adding-header-text-to-the-home-page">Adding header text to the home page</h2>
+<p>In order to add in some header text to the home page, we need to create a _index.md file in the root of the content directory, within this file you can add in the text you want, along with any approprite front matter, for example:</p>
+<hr>
+<pre tabindex="0"><code>+++
+title = &#34;Home&#34;
++++
+
+Welcome to my site.
+</code></pre><p>This will then render at the top of the home page.</p>
+<h2 id="adding-posts-per-category">Adding posts per category</h2>
+<p>In the example below, the fuction looks for the first 5 posts with the &ldquo;technology&rdquo; category in the &ldquo;posts&rdquo; folder, then applies some formatting before displaying the date and then the link to the post.</p>
+<hr>
+<pre><code>{{ define &quot;main&quot; }}
+  {{ .Content }}
+
+  &lt;h3&gt;Technology&lt;/h3&gt;
+  &lt;ul class=&quot;blog-posts&quot;&gt;
+    {{ range first 5 (where (where site.RegularPages &quot;Section&quot; &quot;posts&quot;) &quot;Params.categories&quot; &quot;intersect&quot; (slice &quot;technology&quot;)) }}
+    &lt;li&gt;
+        &lt;span&gt;
+          &lt;i&gt;
+            &lt;time datetime=&quot;{{ .Date.Format &quot;2006-01-02&quot; }}&quot;&gt;{{ .Date.Format &quot;02 Jan 2006&quot; }}&lt;/time&gt;
+          &lt;/i&gt;
+        &lt;/span&gt;
+        &lt;a href=&quot;{{ .RelPermalink }}&quot;&gt;{{ .Title }}&lt;/a&gt;
+      &lt;/li&gt;
+    {{ end }}
+  &lt;/ul&gt;
+  &lt;/ul&gt;
+
+{{ end }}
+</code></pre>
+<hr>
+<p>Multiple categories can be added in the same way by stacking these in the required order.</p>
+<p>To implement this, create an index.html file in the layouts/ folder, when saved it should render as required.</p>
+
+</content>
+
+
+
+<p>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+  
+</body>
+
+</html>

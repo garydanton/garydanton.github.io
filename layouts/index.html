@@ -1,9 +1,9 @@
 {{ define "main" }}
   {{ .Content }}
-
+<!--
   <h3>Running</h3>
   <ul class="blog-posts">
-    {{ range first 5 (where (where site.RegularPages "Section" "blog") "Params.categories" "intersect" (slice "running")) }}
+    {{ range first 5 (where (where site.RegularPages "Section" "posts") "Params.categories" "intersect" (slice "running")) }}
     <li>
         <span>
           <i>
@@ -18,7 +18,7 @@
 
   <h3>Travel</h3>
   <ul class="blog-posts">
-    {{ range first 5 (where (where site.RegularPages "Section" "blog") "Params.categories" "intersect" (slice "travel")) }}
+    {{ range first 5 (where (where site.RegularPages "Section" "posts") "Params.categories" "intersect" (slice "travel")) }}
     <li>
         <span>
           <i>
@@ -30,10 +30,10 @@
     {{ end }}
   </ul>
   </ul>
-
-  <h3>Technology</h3>
+//-->
+  <h3>Posts</h3>
   <ul class="blog-posts">
-    {{ range first 5 (where (where site.RegularPages "Section" "blog") "Params.categories" "intersect" (slice "technology")) }}
+    {{ range first 5 (where (where site.RegularPages "Section" "posts") "Params.categories" "intersect" (slice "technology")) }}
     <li>
         <span>
           <i>

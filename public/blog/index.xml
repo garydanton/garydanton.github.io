@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Blogs on Gary Danton&#39;s Blog</title>
-		<link>http://localhost:1313/blog/</link>
+		<link>https://garydanton.github.io/blog/</link>
 		<description>Recent content in Blogs on Gary Danton&#39;s Blog</description>
 		<generator>Hugo</generator>
 		<language>en-GB</language>
@@ -14,12 +14,12 @@
 		
 			<lastBuildDate>Sat, 06 Jun 2026 12:49:31 +0100</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://garydanton.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>My First Post</title>
-				<link>http://localhost:1313/my-first-post/</link>
+				<link>https://garydanton.github.io/my-first-post/</link>
 				<pubDate>Sat, 06 Jun 2026 12:49:31 +0100</pubDate>
-				<guid>http://localhost:1313/my-first-post/</guid>
+				<guid>https://garydanton.github.io/my-first-post/</guid>
 				<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
 			</item>
 	</channel>

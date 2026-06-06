@@ -1,6 +1,6 @@
 +++
 date = '2026-06-06T12:49:31+01:00'
-draft = false
+draft = true
 title = 'My First Post'
 categories = ["running", "technology"]
 +++
