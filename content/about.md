@@ -10,6 +10,6 @@ This site is built using [Hugo](https://gohugo.io/), the [Hugo Bear Blog](https:
 
 I've keep tweaks to the layouts minor:
 
-- Changes to the fonts, replacing Verdana with Ubuntu (headers) and Lucidia Console (body text)
+- [Changes to the fonts](/posts/2026/june/changing-fonts/), replacing Verdana with Ubuntu (headers) and Lucidia Console (body text)
 - [Home page customisation](/posts/2026/june/bear-blog-home-page-customisation/), adding in introductory text and showing posts per category
 - Neater presentation of code-blocks, adding in [text wrapping](/posts/2026/june/neater-hugo-code-blocks/)
