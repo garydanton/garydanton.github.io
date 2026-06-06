@@ -12,9 +12,16 @@
 			<copyright>Copyright © 2026, Gary Danton.</copyright>
 		
 		
-			<lastBuildDate>Sat, 06 Jun 2026 15:46:51 +0100</lastBuildDate>
+			<lastBuildDate>Sat, 06 Jun 2026 17:53:38 +0100</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Changing Fonts in Hugo</title>
+				<link>http://localhost:1313/posts/2026/june/changing-fonts/</link>
+				<pubDate>Sat, 06 Jun 2026 17:53:38 +0100</pubDate>
+				<guid>http://localhost:1313/posts/2026/june/changing-fonts/</guid>
+				<description>&lt;h1 id=&#34;changing-fonts-in-hugo&#34;&gt;Changing Fonts in Hugo&lt;/h1&gt;&#xA;&lt;p&gt;Another tweak I&amp;rsquo;ve made to the base Hugo Bear Blog theme is to swap out the default font (Verdana - i&amp;rsquo;ve never much cared for it) with some alternatives, in my case Ubuntu for headers and Lucidia Console for body text.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a very quick change and just involves editing the style.html file created we &lt;a href=&#34;http://localhost:1313/posts/2026/june/neater-hugo-code-blocks/&#34;&gt;editing the code-block defaults&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Right at the top of the style.html file you need to edit the following:&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Neater Hugo Code Blocks</title>
 				<link>http://localhost:1313/posts/2026/june/neater-hugo-code-blocks/</link>

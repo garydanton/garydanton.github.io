@@ -5,8 +5,6 @@ title = 'Neater Hugo Code Blocks'
 categories = ["technology"]
 +++
 
-# Neater Hugo Code Blocks
-
 For the most part i'm happy with the styling of the Bear Blog theme. 
 
 I'm a big fan of contraints and by picking a well featured but simply styled blog theme it means that I can focus on the content rather than constantly messing around with the look of the blog.

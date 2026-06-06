@@ -5,8 +5,6 @@ title = 'Changing Fonts in Hugo'
 categories = ["technology"]
 +++
 
-# Changing Fonts in Hugo
-
 Another tweak I've made to the base Hugo Bear Blog theme is to swap out the default font (Verdana - i've never much cared for it) with some alternatives, in my case Ubuntu for headers and Lucidia Console for body text.
 
 It's a very quick change and just involves editing the style.html file created we [editing the code-block defaults](/posts/2026/june/neater-hugo-code-blocks/)

@@ -5,8 +5,6 @@ title = 'Bear Blog Home Page Customisation'
 categories = ["technology"]
 +++
 
-# Bear Blog Home Page Customisation
-
 I want to be able to add some customision to the stadard Hugo Bear Blog home page, specifically adding in some header text and a break down of blog posts made in certain categories.
 
 To add in this type of customisation, we need to 
