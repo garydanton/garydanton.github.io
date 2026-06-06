@@ -1,0 +1,48 @@
+{{ define "main" }}
+  {{ .Content }}
+
+  <h3>Running</h3>
+  <ul class="blog-posts">
+    {{ range first 5 (where (where site.RegularPages "Section" "blog") "Params.categories" "intersect" (slice "running")) }}
+    <li>
+        <span>
+          <i>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+          </i>
+        </span>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+  </ul>
+
+  <h3>Travel</h3>
+  <ul class="blog-posts">
+    {{ range first 5 (where (where site.RegularPages "Section" "blog") "Params.categories" "intersect" (slice "travel")) }}
+    <li>
+        <span>
+          <i>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+          </i>
+        </span>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+  </ul>
+
+  <h3>Technology</h3>
+  <ul class="blog-posts">
+    {{ range first 5 (where (where site.RegularPages "Section" "blog") "Params.categories" "intersect" (slice "technology")) }}
+    <li>
+        <span>
+          <i>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+          </i>
+        </span>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+  </ul>
+{{ end }}

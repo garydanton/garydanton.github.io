@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Home on Gary Danton&#39;s Blog</title>
-		<link>http://localhost:1313/</link>
-		<description>Recent content in Home on Gary Danton&#39;s Blog</description>
+		<title>Technology on Gary Danton&#39;s Blog</title>
+		<link>http://localhost:1313/categories/technology/</link>
+		<description>Recent content in Technology on Gary Danton&#39;s Blog</description>
 		<generator>Hugo</generator>
 		<language>en-GB</language>
 		
@@ -14,7 +14,7 @@
 		
 			<lastBuildDate>Sat, 06 Jun 2026 12:49:31 +0100</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>My First Post</title>
 				<link>http://localhost:1313/my-first-post/</link>

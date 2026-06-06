@@ -1,14 +1,14 @@
 # Set to the URL for your site
-baseURL = "https://example.com"
+baseURL = "https://garydanton.github.io"
 
 # The name of this wonderful theme.
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "Hugo ʕ•ᴥ•ʔ Bear Blog"
-author = "Jane Doe"
-copyright = "Copyright © 2020, Jane Doe."
-languageCode = "en-US"
+title = "Gary Danton's Blog"
+author = "Gary Danton"
+copyright = "Copyright © 2026, Gary Danton."
+languageCode = "en-GB"
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
@@ -67,3 +67,15 @@ ignoreErrors = ["error-disable-taxonomy"]
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[menus]
+
+  [[menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 1
+
+  [[menus.main]]
+    name = "Blog"
+    pageRef = "/blog"
+    weight = 2
