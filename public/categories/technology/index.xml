@@ -20,21 +20,28 @@
 				<link>http://localhost:1313/posts/2026/june/changing-fonts/</link>
 				<pubDate>Sat, 06 Jun 2026 17:53:38 +0100</pubDate>
 				<guid>http://localhost:1313/posts/2026/june/changing-fonts/</guid>
-				<description>&lt;h1 id=&#34;changing-fonts-in-hugo&#34;&gt;Changing Fonts in Hugo&lt;/h1&gt;&#xA;&lt;p&gt;Another tweak I&amp;rsquo;ve made to the base Hugo Bear Blog theme is to swap out the default font (Verdana - i&amp;rsquo;ve never much cared for it) with some alternatives, in my case Ubuntu for headers and Lucidia Console for body text.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a very quick change and just involves editing the style.html file created we &lt;a href=&#34;http://localhost:1313/posts/2026/june/neater-hugo-code-blocks/&#34;&gt;editing the code-block defaults&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Right at the top of the style.html file you need to edit the following:&lt;/p&gt;</description>
+				<description>&lt;p&gt;Another tweak I&amp;rsquo;ve made to the base Hugo Bear Blog theme is to swap out the default font (Verdana - i&amp;rsquo;ve never much cared for it) with some alternatives, in my case Ubuntu for headers and Lucidia Console for body text.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a very quick change and just involves editing the style.html file created we &lt;a href=&#34;http://localhost:1313/posts/2026/june/neater-hugo-code-blocks/&#34;&gt;editing the code-block defaults&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Right at the top of the style.html file you need to edit the following:&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Neater Hugo Code Blocks</title>
 				<link>http://localhost:1313/posts/2026/june/neater-hugo-code-blocks/</link>
 				<pubDate>Sat, 06 Jun 2026 15:46:51 +0100</pubDate>
 				<guid>http://localhost:1313/posts/2026/june/neater-hugo-code-blocks/</guid>
-				<description>&lt;h1 id=&#34;neater-hugo-code-blocks&#34;&gt;Neater Hugo Code Blocks&lt;/h1&gt;&#xA;&lt;p&gt;For the most part i&amp;rsquo;m happy with the styling of the Bear Blog theme.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a big fan of contraints and by picking a well featured but simply styled blog theme it means that I can focus on the content rather than constantly messing around with the look of the blog.&lt;/p&gt;&#xA;&lt;p&gt;I do however have a gripe with the way that code blocks are presented.&lt;/p&gt;&#xA;&lt;p&gt;By default, theres no text wrapping, so longer blocks of code spead themselves all over the page, looking very out of place and generally ruining the look of the blog.&lt;/p&gt;</description>
+				<description>&lt;p&gt;For the most part i&amp;rsquo;m happy with the styling of the Bear Blog theme.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a big fan of contraints and by picking a well featured but simply styled blog theme it means that I can focus on the content rather than constantly messing around with the look of the blog.&lt;/p&gt;&#xA;&lt;p&gt;I do however have a gripe with the way that code blocks are presented.&lt;/p&gt;&#xA;&lt;p&gt;By default, theres no text wrapping, so longer blocks of code spead themselves all over the page, looking very out of place and generally ruining the look of the blog.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Bear Blog Home Page Customisation</title>
 				<link>http://localhost:1313/posts/2026/june/bear-blog-home-page-customisation/</link>
 				<pubDate>Sat, 06 Jun 2026 15:08:17 +0100</pubDate>
 				<guid>http://localhost:1313/posts/2026/june/bear-blog-home-page-customisation/</guid>
-				<description>&lt;h1 id=&#34;bear-blog-home-page-customisation&#34;&gt;Bear Blog Home Page Customisation&lt;/h1&gt;&#xA;&lt;p&gt;I want to be able to add some customision to the stadard Hugo Bear Blog home page, specifically adding in some header text and a break down of blog posts made in certain categories.&lt;/p&gt;&#xA;&lt;p&gt;To add in this type of customisation, we need to&lt;/p&gt;&#xA;&lt;h2 id=&#34;adding-header-text-to-the-home-page&#34;&gt;Adding header text to the home page&lt;/h2&gt;&#xA;&lt;p&gt;In order to add in some header text to the home page, we need to create a _index.md file in the root of the content directory, within this file you can add in the text you want, along with any approprite front matter, for example:&lt;/p&gt;</description>
+				<description>&lt;p&gt;I want to be able to add some customision to the stadard Hugo Bear Blog home page, specifically adding in some header text and a break down of blog posts made in certain categories.&lt;/p&gt;&#xA;&lt;p&gt;To add in this type of customisation, we need to&lt;/p&gt;&#xA;&lt;h2 id=&#34;adding-header-text-to-the-home-page&#34;&gt;Adding header text to the home page&lt;/h2&gt;&#xA;&lt;p&gt;In order to add in some header text to the home page, we need to create a _index.md file in the root of the content directory, within this file you can add in the text you want, along with any approprite front matter, for example:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>My First Post</title>
+				<link>http://localhost:1313/my-first-post/</link>
+				<pubDate>Sat, 06 Jun 2026 12:49:31 +0100</pubDate>
+				<guid>http://localhost:1313/my-first-post/</guid>
+				<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

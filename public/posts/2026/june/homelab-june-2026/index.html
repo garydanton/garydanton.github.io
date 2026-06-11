@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>Homelab Update - June 2026 | Gary Danton&#39;s Blog</title>
+<meta name="title" content="Homelab Update - June 2026" />
+<meta name="description" content="I&rsquo;ve been messing about over the last 6 months with my homelab, and it’s gone through several different setups, with some far more successful than others.
+The main purpose of the homelab is media processing and consumption. I&rsquo;d like to start to migrate away from streaming services, so I need to self-host alternatives.
+As of June 2026, my homelab currently consists of the following:
+
+Raspberry Pi 4B
+Lenovo ThinkCentre M720q Tiny
+Dell Optiplex 3050
+Synology NAS
+
+Raspberry Pi 4B
+This little gem of a computer has been running Pi-hole for years now. It’s the only device that’s always on, happily blocking ads for my whole home network." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:url" content="http://localhost:1313/posts/2026/june/homelab-june-2026/">
+	<meta property="og:site_name" content="Gary Danton&#39;s Blog">
+	<meta property="og:title" content="Homelab Update - June 2026">
+	<meta property="og:description" content="I’ve been messing about over the last 6 months with my homelab, and it’s gone through several different setups, with some far more successful than others.
+The main purpose of the homelab is media processing and consumption. I’d like to start to migrate away from streaming services, so I need to self-host alternatives.
+As of June 2026, my homelab currently consists of the following:
+Raspberry Pi 4B Lenovo ThinkCentre M720q Tiny Dell Optiplex 3050 Synology NAS Raspberry Pi 4B This little gem of a computer has been running Pi-hole for years now. It’s the only device that’s always on, happily blocking ads for my whole home network.">
+	<meta property="og:locale" content="en_GB">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-06-11T19:24:30+01:00">
+		<meta property="article:modified_time" content="2026-06-11T19:24:30+01:00">
+		<meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://localhost:1313/images/share.png">
+	<meta name="twitter:title" content="Homelab Update - June 2026">
+	<meta name="twitter:description" content="I’ve been messing about over the last 6 months with my homelab, and it’s gone through several different setups, with some far more successful than others.
+The main purpose of the homelab is media processing and consumption. I’d like to start to migrate away from streaming services, so I need to self-host alternatives.
+As of June 2026, my homelab currently consists of the following:
+Raspberry Pi 4B Lenovo ThinkCentre M720q Tiny Dell Optiplex 3050 Synology NAS Raspberry Pi 4B This little gem of a computer has been running Pi-hole for years now. It’s the only device that’s always on, happily blocking ads for my whole home network.">
+
+
+
+
+	<meta itemprop="name" content="Homelab Update - June 2026">
+	<meta itemprop="description" content="I’ve been messing about over the last 6 months with my homelab, and it’s gone through several different setups, with some far more successful than others.
+The main purpose of the homelab is media processing and consumption. I’d like to start to migrate away from streaming services, so I need to self-host alternatives.
+As of June 2026, my homelab currently consists of the following:
+Raspberry Pi 4B Lenovo ThinkCentre M720q Tiny Dell Optiplex 3050 Synology NAS Raspberry Pi 4B This little gem of a computer has been running Pi-hole for years now. It’s the only device that’s always on, happily blocking ads for my whole home network.">
+	<meta itemprop="datePublished" content="2026-06-11T19:24:30+01:00">
+	<meta itemprop="dateModified" content="2026-06-11T19:24:30+01:00">
+	<meta itemprop="wordCount" content="509">
+	<meta itemprop="image" content="http://localhost:1313/images/share.png">
+	<meta itemprop="keywords" content="Technology">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Ubuntu, sans-serif;
+    --font-secondary: "Lucida Console", monospace;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+    text-wrap: wrap;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  .highlight pre,
+  .code pre {
+    min-width: 100%;
+    width: max-content;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Gary Danton&#39;s Blog</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/posts/">Posts</a>
+
+<a href="/about/">About</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Homelab Update - June 2026</h1>
+<p>
+  <i>
+    <time datetime='2026-06-11'>
+      11 Jun, 2026
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>I&rsquo;ve been messing about over the last 6 months with my homelab, and it’s gone through several different setups, with some far more successful than others.</p>
+<p>The main purpose of the homelab is media processing and consumption. I&rsquo;d like to start to migrate away from streaming services, so I need to self-host alternatives.</p>
+<p>As of June 2026, my homelab currently consists of the following:</p>
+<ul>
+<li>Raspberry Pi 4B</li>
+<li>Lenovo ThinkCentre M720q Tiny</li>
+<li>Dell Optiplex 3050</li>
+<li>Synology NAS</li>
+</ul>
+<h2 id="raspberry-pi-4b">Raspberry Pi 4B</h2>
+<p>This little gem of a computer has been running <a href="https://pi-hole.net/">Pi-hole</a> for years now. It’s the only device that’s always on, happily blocking ads for my whole home network.</p>
+<h2 id="lenovo-thinkcentre-m720q-tiny">Lenovo ThinkCentre M720q Tiny</h2>
+<p>Before I picked up the Optiplex, the little Lenovo was my primary homelab device. It’s been rebuilt multiple times, initially using Proxmox, but I’ve recently switched to Ubuntu Server and Docker.</p>
+<p>It’s currently running the following containers:</p>
+<ul>
+<li>Dockge (for container management)</li>
+<li>Uptime Kuma (for checking system uptimes)</li>
+<li>ARM (Automated Ripping Machine)</li>
+<li>Minecraft server</li>
+</ul>
+<p>The ThinkCentre is an absolutely tiny computer, but this does have its drawbacks. It does run a little warm, and the fan readily spins up and can be a little whiny at higher speeds, which, when configured as a media server, is noticeable.</p>
+<p>I’ve added an external DVD drive in order to use ARM (<a href="https://github.com/automatic-ripping-machine">Automated Ripping Machine</a>) — I’ve got a stack of old DVDs and CDs, and this takes 95% of the effort out of ripping and digitising my media collection.</p>
+<h2 id="dell-optiplex-3050">Dell Optiplex 3050</h2>
+<p>This very cheap Dell Optiplex rocks a 7th Gen i5, 16GB RAM, a 240GB SSD for a boot drive, and a 4TB spinning storage drive. I also have a very old and basic Nvidia 1050 Ti installed for transcoding a few Jellyfin streams.</p>
+<p>It’s currently used exclusively as a media server running <a href="https://jellyfin.org/">Jellyfin</a>, and it works well for such a cheap solution. It’s also running Ubuntu Server with the latest NVIDIA drivers.</p>
+<h2 id="synology-nas">Synology NAS</h2>
+<p>I’ve had this Synology NAS for years, and it was my original media server solution. It’s capable of running Jellyfin, but it really does struggle with more modern file types, and transcoding is pretty much a no. Since setting up the Optiplex, it’s been demoted to a secondary file store.</p>
+<h2 id="whats-next-for-the-homelab">What’s next for the homelab?</h2>
+<p>I’m likely to migrate everything over from the Lenovo to the Dell. While the Lenovo is a capable machine, it can be noisy and lacks internal storage — it’s a computer built on compromise.</p>
+<p>I’d also like to add a Samba server to the Optiplex, as at the moment media transfer is done via rsync (this works fine, but I’d like a simple GUI-accessible method as well).</p>
+<p>I’m also looking to expand the media capabilities of the setup, adding in a podcast and audiobook server, ebook server, and anything else I fancy playing around with.</p>
+<p>I may end up repurposing the Lenovo for more of a testing setup, reinstalling Proxmox — but we’ll see.</p>
+<p>That’s the beauty of a homelab: you can chop and change it as much as you like.</p>
+
+</content>
+
+
+
+<p>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+  
+</body>
+
+</html>

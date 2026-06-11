@@ -12,9 +12,16 @@
 			<copyright>Copyright © 2026, Gary Danton.</copyright>
 		
 		
-			<lastBuildDate>Sat, 06 Jun 2026 17:53:38 +0100</lastBuildDate>
+			<lastBuildDate>Thu, 11 Jun 2026 19:24:30 +0100</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Homelab Update - June 2026</title>
+				<link>http://localhost:1313/posts/2026/june/homelab-june-2026/</link>
+				<pubDate>Thu, 11 Jun 2026 19:24:30 +0100</pubDate>
+				<guid>http://localhost:1313/posts/2026/june/homelab-june-2026/</guid>
+				<description>&lt;p&gt;I&amp;rsquo;ve been messing about over the last 6 months with my homelab, and it’s gone through several different setups, with some far more successful than others.&lt;/p&gt;&#xA;&lt;p&gt;The main purpose of the homelab is media processing and consumption. I&amp;rsquo;d like to start to migrate away from streaming services, so I need to self-host alternatives.&lt;/p&gt;&#xA;&lt;p&gt;As of June 2026, my homelab currently consists of the following:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Raspberry Pi 4B&lt;/li&gt;&#xA;&lt;li&gt;Lenovo ThinkCentre M720q Tiny&lt;/li&gt;&#xA;&lt;li&gt;Dell Optiplex 3050&lt;/li&gt;&#xA;&lt;li&gt;Synology NAS&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;raspberry-pi-4b&#34;&gt;Raspberry Pi 4B&lt;/h2&gt;&#xA;&lt;p&gt;This little gem of a computer has been running &lt;a href=&#34;https://pi-hole.net/&#34;&gt;Pi-hole&lt;/a&gt; for years now. It’s the only device that’s always on, happily blocking ads for my whole home network.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Changing Fonts in Hugo</title>
 				<link>http://localhost:1313/posts/2026/june/changing-fonts/</link>
