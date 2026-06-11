@@ -45,7 +45,7 @@ It’s currently used exclusively as a media server running [Jellyfin](https://j
 
 I’ve had this Synology NAS for years, and it was my original media server solution. It’s capable of running Jellyfin, but it really does struggle with more modern file types, and transcoding is pretty much a no. Since setting up the Optiplex, it’s been demoted to a secondary file store.
 
-## What’s next for the homelab?
+## What’s next for the Homelab?
 
 I’m likely to migrate everything over from the Lenovo to the Dell. While the Lenovo is a capable machine, it can be noisy and lacks internal storage — it’s a computer built on compromise.
 
