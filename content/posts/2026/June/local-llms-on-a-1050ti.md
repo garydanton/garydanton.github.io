@@ -1,6 +1,6 @@
 +++
 date = '2026-06-19T08:44:01+01:00'
-draft = true
+draft = false
 title = 'Running Local LLMs on a NVIDIA 1050Ti'
 categories = ["technology"]
 +++

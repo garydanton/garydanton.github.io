@@ -1,6 +1,6 @@
 +++
 date = '2026-06-12T11:43:37+01:00'
-draft = true
+draft = false
 title = 'Archiving YouTube'
 categories = ["technology"]
 +++
