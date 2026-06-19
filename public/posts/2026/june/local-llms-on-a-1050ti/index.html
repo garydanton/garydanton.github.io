@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>Running Local LLMs on a NVIDIA 1050Ti | Gary Danton&#39;s Blog</title>
+<meta name="title" content="Running Local LLMs on a NVIDIA 1050Ti" />
+<meta name="description" content="
+&ldquo;Just because you could do it, doesn&rsquo;t mean you should do it.&rdquo; - Ian Malcolm, Jurassic Park
+
+As mentioned in my recent Homelab Overview I&rsquo;ve currently got a Dell Optiplex 3050 running Jellyfin sitting in my rack. This is doing a sterling job hosting my small media collection around the house, but it&rsquo;s sitting idle for at least 90% of the time.
+I&rsquo;ve previously spent some time running Ollama when it was first launched on an old gaming PC, but always seemed to run into driver issues. Now I have a working setup with the correct NVIDIA drivers for Linux - let&rsquo;s throw OLMega at one of the lowest-spec GPU&rsquo;s around!" />
+<meta name="keywords" content="" />
+
+
+<meta property="og:url" content="http://localhost:1313/posts/2026/june/local-llms-on-a-1050ti/">
+	<meta property="og:site_name" content="Gary Danton&#39;s Blog">
+	<meta property="og:title" content="Running Local LLMs on a NVIDIA 1050Ti">
+	<meta property="og:description" content="“Just because you could do it, doesn’t mean you should do it.” - Ian Malcolm, Jurassic Park
+As mentioned in my recent Homelab Overview I’ve currently got a Dell Optiplex 3050 running Jellyfin sitting in my rack. This is doing a sterling job hosting my small media collection around the house, but it’s sitting idle for at least 90% of the time.
+I’ve previously spent some time running Ollama when it was first launched on an old gaming PC, but always seemed to run into driver issues. Now I have a working setup with the correct NVIDIA drivers for Linux - let’s throw OLMega at one of the lowest-spec GPU’s around!">
+	<meta property="og:locale" content="en_GB">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-06-19T08:44:01+01:00">
+		<meta property="article:modified_time" content="2026-06-19T08:44:01+01:00">
+		<meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://localhost:1313/images/share.png">
+	<meta name="twitter:title" content="Running Local LLMs on a NVIDIA 1050Ti">
+	<meta name="twitter:description" content="“Just because you could do it, doesn’t mean you should do it.” - Ian Malcolm, Jurassic Park
+As mentioned in my recent Homelab Overview I’ve currently got a Dell Optiplex 3050 running Jellyfin sitting in my rack. This is doing a sterling job hosting my small media collection around the house, but it’s sitting idle for at least 90% of the time.
+I’ve previously spent some time running Ollama when it was first launched on an old gaming PC, but always seemed to run into driver issues. Now I have a working setup with the correct NVIDIA drivers for Linux - let’s throw OLMega at one of the lowest-spec GPU’s around!">
+
+
+
+
+	<meta itemprop="name" content="Running Local LLMs on a NVIDIA 1050Ti">
+	<meta itemprop="description" content="“Just because you could do it, doesn’t mean you should do it.” - Ian Malcolm, Jurassic Park
+As mentioned in my recent Homelab Overview I’ve currently got a Dell Optiplex 3050 running Jellyfin sitting in my rack. This is doing a sterling job hosting my small media collection around the house, but it’s sitting idle for at least 90% of the time.
+I’ve previously spent some time running Ollama when it was first launched on an old gaming PC, but always seemed to run into driver issues. Now I have a working setup with the correct NVIDIA drivers for Linux - let’s throw OLMega at one of the lowest-spec GPU’s around!">
+	<meta itemprop="datePublished" content="2026-06-19T08:44:01+01:00">
+	<meta itemprop="dateModified" content="2026-06-19T08:44:01+01:00">
+	<meta itemprop="wordCount" content="735">
+	<meta itemprop="image" content="http://localhost:1313/images/share.png">
+	<meta itemprop="keywords" content="Technology">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Ubuntu, sans-serif;
+    --font-secondary: "Lucida Console", monospace;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+    text-wrap: wrap;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  .highlight pre,
+  .code pre {
+    min-width: 100%;
+    width: max-content;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Gary Danton&#39;s Blog</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/posts/">Posts</a>
+
+<a href="/about/">About</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Running Local LLMs on a NVIDIA 1050Ti</h1>
+<p>
+  <i>
+    <time datetime='2026-06-19'>
+      19 Jun, 2026
+    </time>
+  </i>
+</p>
+
+<content>
+  <blockquote>
+<p>&ldquo;Just because you could do it, doesn&rsquo;t mean you should do it.&rdquo; - Ian Malcolm, Jurassic Park</p>
+</blockquote>
+<p>As mentioned in my recent <a href="/posts/2026/june/homelab-june-2026/">Homelab Overview</a> I&rsquo;ve currently got a Dell Optiplex 3050 running Jellyfin sitting in my rack. This is doing a sterling job hosting my small media collection around the house, but it&rsquo;s sitting idle for at least 90% of the time.</p>
+<p>I&rsquo;ve previously spent some time running Ollama when it was first launched on an old gaming PC, but always seemed to run into driver issues. Now I have a working setup with the correct NVIDIA drivers for Linux - let&rsquo;s throw OLMega at one of the lowest-spec GPU&rsquo;s around!</p>
+<h2 id="installing-and-running-ollama">Installing and Running Ollama</h2>
+<p>Installing Ollama on the Optiplex is a piece of cake.</p>
+<p>SSH into the server, run the usual update cycle:</p>
+<p><code>sudo apt update &amp;&amp; sudo apt upgrade -y</code></p>
+<p>Then pull Ollama using the following command:</p>
+<p><code>curl -fsSL https://ollama.com/install.sh | sh</code></p>
+<p>This pull&rsquo;s Ollama and takes care of any dependancies, after a few minutes it all installed.</p>
+<h2 id="picking-an-llm">Picking an LLM</h2>
+<p>Given that the 1050Ti installed in my media server has a paltry 4GB of VRAM, I&rsquo;m very limited in what I can run.</p>
+<p>I&rsquo;ve chosen to test this setup with with Meta&rsquo;s <a href="https://ollama.com/library/llama3.2">llama3.2 LLM</a>, specifically the 3B model. In theory this is a good general purpose model, that should give reasonable performance on this hardware.</p>
+<p>This can be pulled via the following command:</p>
+<p><code>ollama run llama3.2:3b</code></p>
+<p>I fed the terminal a few prompts and everything seems to be surprisingly responsive. I, however, want to benchmark this against other models, so I need a consistent test.</p>
+<h2 id="benchmarking-the-1050ti">Benchmarking the 1050Ti</h2>
+<p>After some research, the classic <a href="https://en.wikipedia.org/wiki/River_crossing_puzzle">Fox, Geese and Grain puzzle</a> was recommended as a benchmark. In order to turn on some logging, you need to start Ollama using the &ndash;verbose flag, so in my case:</p>
+<p><code>ollama run llama3.2:3b --verbose</code></p>
+<p>I fed Ollama the following prompt:</p>
+<p><code>&quot;A farmer needs to cross a river with a fox, a goose, and a bag of grain. The boat can only hold the farmer and one item at a time. If the fox is left alone with the goose, the fox will eat it. If the goose is left alone with the grain, the goose will eat it. How does the farmer get everything across the river?&quot;</code></p>
+<p>This outputted:</p>
+<hr>
+<pre tabindex="0"><code>
+&#34;This classic problem is known as the &#34;Fox, Goose, and Grain&#34; puzzle. 
+Here&#39;s a step-by-step solution to get everything across the river safely:
+
+1. Farmer takes the goose across the river first and leaves it on the 
+other side.
+2. The farmer goes back to the original side and picks up the grain.
+3. The farmer takes the grain across the river, but he doesn&#39;t leave it 
+with the goose. Instead, he leaves it on the other side with the goose.
+4. Now, the farmer goes back to the original side and picks up the fox.
+5. The farmer takes the fox across the river, but again, he doesn&#39;t leave 
+it with the goose or grain. He leaves it on the other side with the grain.
+6. Finally, the farmer goes back to the original side and picks up the 
+goose.
+7. The farmer takes the goose across the river, this time leaving it alone 
+without the grain.
+
+The sequence of steps is crucial in solving the puzzle, as it ensures that 
+no two problematic animals (fox and goose) are left together at any point 
+during the crossing process.
+
+By following these steps, the farmer can safely transport all three items 
+(the fox, the goose, and the bag of grain) across the river.&#34;
+</code></pre><hr>
+<p>With the logs giving me the following stats:</p>
+<table>
+	<thead>
+			<tr>
+					<th><strong>Category</strong></th>
+					<th><strong>Value</strong></th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Total Duration</td>
+					<td>10.867172475s</td>
+			</tr>
+			<tr>
+					<td>Load Duration</td>
+					<td>234.770063ms</td>
+			</tr>
+			<tr>
+					<td>Prompt Eval Count</td>
+					<td>231 token(s)</td>
+			</tr>
+			<tr>
+					<td>Prompt Eval Duration</td>
+					<td>287.518ms</td>
+			</tr>
+			<tr>
+					<td>Prompt Eval Rate</td>
+					<td>803.43 tokens/s</td>
+			</tr>
+			<tr>
+					<td>Eval Count</td>
+					<td>258 token(s)</td>
+			</tr>
+			<tr>
+					<td>Eval Duration</td>
+					<td>10.342666s</td>
+			</tr>
+			<tr>
+					<td>Eval Rate</td>
+					<td>24.95 tokens/s</td>
+			</tr>
+	</tbody>
+</table>
+<p>While not terribly useful on its own, this will give me a good gauge moving forwards.</p>
+<h2 id="thoughts">Thoughts</h2>
+<p>Overall, I&rsquo;m genuinely surprised at how responsive this LLM and GPU combo is - everything seems quick and snappy, and the user experience is good. I&rsquo;ll admit I&rsquo;m only scratching the surface of this model and I&rsquo;ll be playing around with it over the coming weeks, but it&rsquo;s promising.</p>
+<p>I like the idea of using small models on low-end hardware for specific tasks rather than the expensive, subscription-based model that the industry has been embracing over the last decade.</p>
+
+</content>
+
+
+
+<p>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+  
+</body>
+
+</html>

@@ -12,9 +12,23 @@
 			<copyright>Copyright © 2026, Gary Danton.</copyright>
 		
 		
-			<lastBuildDate>Thu, 11 Jun 2026 19:24:30 +0100</lastBuildDate>
+			<lastBuildDate>Fri, 19 Jun 2026 08:44:01 +0100</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Running Local LLMs on a NVIDIA 1050Ti</title>
+				<link>http://localhost:1313/posts/2026/june/local-llms-on-a-1050ti/</link>
+				<pubDate>Fri, 19 Jun 2026 08:44:01 +0100</pubDate>
+				<guid>http://localhost:1313/posts/2026/june/local-llms-on-a-1050ti/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Just because you could do it, doesn&amp;rsquo;t mean you should do it.&amp;rdquo; - Ian Malcolm, Jurassic Park&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;As mentioned in my recent &lt;a href=&#34;http://localhost:1313/posts/2026/june/homelab-june-2026/&#34;&gt;Homelab Overview&lt;/a&gt; I&amp;rsquo;ve currently got a Dell Optiplex 3050 running Jellyfin sitting in my rack. This is doing a sterling job hosting my small media collection around the house, but it&amp;rsquo;s sitting idle for at least 90% of the time.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve previously spent some time running Ollama when it was first launched on an old gaming PC, but always seemed to run into driver issues. Now I have a working setup with the correct NVIDIA drivers for Linux - let&amp;rsquo;s throw OLMega at one of the lowest-spec GPU&amp;rsquo;s around!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Archiving YouTube</title>
+				<link>http://localhost:1313/posts/2026/june/archiving-yt/</link>
+				<pubDate>Fri, 12 Jun 2026 11:43:37 +0100</pubDate>
+				<guid>http://localhost:1313/posts/2026/june/archiving-yt/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;There are two types of people in the world, those that have lost data.. and those that will..&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;A number of years ago I experienced the inevitable, a failed hard drive. For the most part it wasn&amp;rsquo;t too much of an issue - ISOs, some music that I could re-rip from CDs, but I did lose some older media.&lt;/p&gt;&#xA;&lt;p&gt;I now need to download some of that for an offline copy, so I needed a very quick and dirty bash script to grab a copy to store locally.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Homelab Update - June 2026</title>
 				<link>http://localhost:1313/posts/2026/june/homelab-june-2026/</link>
